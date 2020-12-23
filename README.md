@@ -1,2 +1,3 @@
 # reactive-end-to-end
-Reactive APIs working with NoSQL to make it reactive in true sense
+Reactive APIs working with NoSQL to make it reactive in true sense. Architecture is truly non-blocking when from controller to repository everything is non blocked i.e. Persisting data reactively. Only NoSQL DB supports reactive feature so MongoDB is used for this exercise. For Demo purpose we can use in-memory MongoDB though its not recommended for Prod. Spring Boot framework provided necessary dependencies for same - de.flapdoodle.embed.mongo and other mongodb dependencies.
+If you face error in setting up In-memory Mongo Db then follow https://stackoverflow.com/questions/56555933/junit-test-mongodb-springboot.
